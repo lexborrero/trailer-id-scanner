@@ -1,0 +1,24 @@
+{
+  "name": "trailer-id-scanner",
+  "version": "1.0.0",
+  "description": "This project provides a simple Python script to extract trailer ID numbers from images using Optical Character Recognition (OCR).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexborrero/trailer-id-scanner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lexborrero/trailer-id-scanner/issues"
+  },
+  "homepage": "https://github.com/lexborrero/trailer-id-scanner#readme",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
