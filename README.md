@@ -1,5 +1,44 @@
 # Trailer ID Scanner
 
+## Full-Stack Architecture
+
+- **Backend:** FastAPI (Python) for OCR, AI, and Excel export
+- **Frontend:** React.js (Create React App) for file upload, results display, and Excel download
+
+### Quickstart
+
+#### Backend (API)
+1. Install dependencies:
+   ```bash
+   pip install fastapi uvicorn easyocr opencv-python pandas openpyxl
+   ```
+2. Run the API:
+   ```bash
+   uvicorn backend.main:app --reload
+   ```
+
+#### Frontend (Web UI)
+1. Install dependencies:
+   ```bash
+   cd frontend
+   npm install
+   ```
+2. Start the React app:
+   ```bash
+   npm start
+   ```
+
+---
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Backend (FastAPI)](#backend-fastapi)
+- [Frontend (React)](#frontend-react)
+- [OCR/AI](#ocrai)
+- [Excel Export](#excel-export)
+- [How to Run](#how-to-run)
+- [License](#license)
+
 This project provides a simple Python script to extract trailer ID numbers from images using Optical Character Recognition (OCR).
 
 ## Features

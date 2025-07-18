@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+easyocr
+opencv-python
+pandas
+openpyxl 
