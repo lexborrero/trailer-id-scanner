@@ -75,4 +75,6 @@ pip install pytesseract pillow opencv-python numpy
 ```
 Detected Text:
 LR7634
-``` 
+```
+**Goal**
+Excel file with all trailer id's in each cell where user can edit logistics after downloading. 
